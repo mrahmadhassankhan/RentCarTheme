@@ -3,7 +3,7 @@ import { Header } from "../Components/Header";
 import { Tools } from "../Components/Tools";
 import { Loader } from "../Components/Loader";
 import { Footer } from "../Components/Footer";
-
+import { Link } from "react-router-dom";
 export const ServicesPost = () => {
   return (
     <>
@@ -20,18 +20,18 @@ export const ServicesPost = () => {
                 <div class="breadcrumbs__items">
                   <div class="breadcrumbs__wrap">
                     <div class="breadcrumbs__item">
-                      <a href="index-2.html" class="breadcrumbs__item-link">
+                      <Link to="/" class="breadcrumbs__item-link">
                         Home
-                      </a>{" "}
+                      </Link>{" "}
                       <span>/</span>{" "}
-                      <a href="services.html" class="breadcrumbs__item-link">
+                      <Link to="/services" class="breadcrumbs__item-link">
                         About Us
-                      </a>{" "}
+                      </Link>{" "}
                       <span>/</span>{" "}
-                      <a href="/services-post" class="breadcrumbs__item-link">
+                      <Link to="/services-post" class="breadcrumbs__item-link">
                         {" "}
                         24 Hour Airport Services
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -66,31 +66,31 @@ export const ServicesPost = () => {
                     service in Los Angeles, Hong Kong, Chicago, and many other
                     destinations.{" "}
                   </p>
-                  <a href="contacts.html" class="btn">
+                  <Link to="/contact-us" class="btn">
                     ORDER SERVICE NOW
-                  </a>
+                  </Link>
                 </div>
               </article>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <figure class="thumbnail banner-thumb">
-                <a href="#">
+                <Link to="#">
                   <img src="assets/images/banner-1.jpg" alt="" />
-                </a>
+                </Link>
               </figure>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <figure class="thumbnail banner-thumb">
-                <a href="#">
+                <Link to="#">
                   <img src="assets/images/banner-2.jpg" alt="" />
-                </a>
+                </Link>
               </figure>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <figure class="thumbnail banner-thumb">
-                <a href="#">
+                <Link to="#">
                   <img src="assets/images/banner-3.jpg" alt="" />
-                </a>
+                </Link>
               </figure>
             </div>
           </div>

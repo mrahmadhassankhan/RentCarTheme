@@ -42,7 +42,7 @@ export const Services = () => {
                 <div className="service-block">
                   <figure className="thumbnail">
                     <span>
-                      <a href="services-post.html">
+                      <a href="/services-post">
                         <img src="assets/images/service_img_1.jpg" alt="" />
                       </a>
                     </span>
@@ -55,7 +55,7 @@ export const Services = () => {
                       one-stop transportation service with minimal fuss and
                       maximum comfort.
                     </p>
-                    <a href="services-post.html" className="btn btn__marker">
+                    <a href="/services-post" className="btn btn__marker">
                       <i className="icon-arrows"></i>
                     </a>
                   </div>
@@ -65,7 +65,7 @@ export const Services = () => {
                 <div className="service-block">
                   <figure className="thumbnail">
                     <span>
-                      <a href="services-post.html">
+                      <a href="/services-post">
                         <img src="assets/images/service_img_2.jpg" alt="" />
                       </a>
                     </span>
@@ -78,7 +78,7 @@ export const Services = () => {
                       account allowsus to pre-deliver vehicles to hotels,
                       offices, residences.
                     </p>
-                    <a href="services-post.html" className="btn btn__marker">
+                    <a href="/services-post" className="btn btn__marker">
                       <i className="icon-arrows"></i>
                     </a>
                   </div>
@@ -88,7 +88,7 @@ export const Services = () => {
                 <div className="service-block">
                   <figure className="thumbnail">
                     <span>
-                      <a href="services-post.html">
+                      <a href="/services-post">
                         <img src="assets/images/service_img_3.jpg" alt="" />
                       </a>
                     </span>
@@ -100,7 +100,7 @@ export const Services = () => {
                       destination you choose. Or ask for a type of tour or drive
                       you are in the mood for and let us do the rest.{" "}
                     </p>
-                    <a href="services-post.html" className="btn btn__marker">
+                    <a href="/services-post" className="btn btn__marker">
                       <i className="icon-arrows"></i>
                     </a>
                   </div>
@@ -110,7 +110,7 @@ export const Services = () => {
                 <div className="service-block">
                   <figure className="thumbnail">
                     <span>
-                      <a href="services-post.html">
+                      <a href="/services-post">
                         <img src="assets/images/service_img_4.jpg" alt="" />
                       </a>
                     </span>
@@ -123,7 +123,7 @@ export const Services = () => {
                       car rental rates. Give us a call we make it easy and
                       affordable.
                     </p>
-                    <a href="services-post.html" className="btn btn__marker">
+                    <a href="/services-post" className="btn btn__marker">
                       <i className="icon-arrows"></i>
                     </a>
                   </div>
@@ -133,7 +133,7 @@ export const Services = () => {
                 <div className="service-block">
                   <figure className="thumbnail">
                     <span>
-                      <a href="services-post.html">
+                      <a href="/services-post">
                         <img src="assets/images/service_img_5.jpg" alt="" />
                       </a>
                     </span>
@@ -145,7 +145,7 @@ export const Services = () => {
                       why would you want to spend an hour travelling across town
                       to pick up a hire car?
                     </p>
-                    <a href="services-post.html" className="btn btn__marker">
+                    <a href="/services-post" className="btn btn__marker">
                       <i className="icon-arrows"></i>
                     </a>
                   </div>
@@ -155,7 +155,7 @@ export const Services = () => {
                 <div className="service-block">
                   <figure className="thumbnail">
                     <span>
-                      <a href="services-post.html">
+                      <a href="/services-post">
                         <img src="assets/images/service_img_6.jpg" alt="" />
                       </a>
                     </span>
@@ -169,7 +169,7 @@ export const Services = () => {
                       get you out on the road as soon as possible, and the best
                       part is… it’s a free service.
                     </p>
-                    <a href="services-post.html" className="btn btn__marker">
+                    <a href="/services-post" className="btn btn__marker">
                       <i className="icon-arrows"></i>
                     </a>
                   </div>

@@ -20,13 +20,12 @@ export const Aboutus = () => {
                 <div className="breadcrumbs__items">
                   <div className="breadcrumbs__wrap">
                     <div className="breadcrumbs__item">
-                      <a href="index-2.html" className="breadcrumbs__item-link">
-                        Home
-                      </a>{" "}
-                      <span>/</span>{" "}
-                      <a href="about.html" className="breadcrumbs__item-link">
-                        About Us
-                      </a>
+                      <Link to="/" className="breadcrumbs__item-link" />
+                      Home
+                      <Link /> <span>/</span>{" "}
+                      <Link to="/about-us" className="breadcrumbs__item-link" />
+                      About Us
+                      <Link />
                     </div>
                   </div>
                 </div>
@@ -61,15 +60,19 @@ export const Aboutus = () => {
                 {/* Add more paragraphs if needed */}
                 <ul className="list__marker">
                   <li>
-                    <a href="#">Best price guarantee</a>
+                    <Link to="#" />
+                    Best price guarantee
+                    <Link />
                   </li>
                   <li>
-                    <a href="#">No cancellation or amendment fees</a>
+                    <Link to="#" />
+                    No cancellation or amendment fees
+                    <Link />
                   </li>
                   <li>
-                    <a href="#">
-                      No hidden extras to pay - theft and damage cover included
-                    </a>
+                    <Link to="#" />
+                    No hidden extras to pay - theft and damage cover included
+                    <Link />
                   </li>
                 </ul>
               </div>

@@ -20,16 +20,15 @@ export const Contactus = () => {
                 <div className="breadcrumbs__items">
                   <div className="breadcrumbs__wrap">
                     <div className="breadcrumbs__item">
-                      <a href="index-2.html" className="breadcrumbs__item-link">
-                        Home
-                      </a>{" "}
-                      <span>/</span>{" "}
-                      <a
-                        href="contacts.html"
+                      <Link to="/" className="breadcrumbs__item-link" />
+                      Home
+                      <Link /> <span>/</span>{" "}
+                      <Link
+                        to="/contact-us"
                         className="breadcrumbs__item-link"
-                      >
-                        Contacts
-                      </a>
+                      />
+                      Contacts
+                      <Link />
                     </div>
                   </div>
                 </div>
@@ -43,10 +42,10 @@ export const Contactus = () => {
           <div className="contact-info-block">
             <div className="logo-contacts">
               <div className="logo">
-                <a href="index-2.html">
-                  <i className="icon-logo"></i>
-                  <span>Rental</span>Cars
-                </a>
+                <Link to="/" />
+                <i className="icon-logo"></i>
+                <span>Rental</span>Cars
+                <Link />
               </div>
             </div>
             <div className="contact-info">
@@ -63,27 +62,33 @@ export const Contactus = () => {
             <div className="social-list">
               <ul className="social-list__icons">
                 <li>
-                  <a
+                  <Link
                     target="_blank"
-                    href="https://www.facebook.com/Tonytemplates/?ref=hl"
-                  >
-                    <i className="icon-facebook-logo"></i>
-                  </a>
+                    to="https://www.facebook.com/Tonytemplates/?ref=hl"
+                  />
+                  <i className="icon-facebook-logo"></i>
+                  <Link />
                 </li>
                 <li>
-                  <a target="_blank" href="https://twitter.com/tonytemplates/">
-                    <i className="icon-twitter-letter-logo"></i>
-                  </a>
+                  <Link
+                    target="_blank"
+                    to="https://twitter.com/tonytemplates/"
+                  />
+                  <i className="icon-twitter-letter-logo"></i>
+                  <Link />
                 </li>
                 <li>
-                  <a target="_blank" href="https://plus.google.com/">
-                    <i className="icon-google-plus"></i>
-                  </a>
+                  <Link target="_blank" to="https://plus.google.com/" />
+                  <i className="icon-google-plus"></i>
+                  <Link />
                 </li>
                 <li>
-                  <a target="_blank" href="https://www.linkedin.com/uas/login?">
-                    <i className="icon-linkedin-logo"></i>
-                  </a>
+                  <Link
+                    target="_blank"
+                    to="https://www.linkedin.com/uas/login?"
+                  />
+                  <i className="icon-linkedin-logo"></i>
+                  <Link />
                 </li>
               </ul>
             </div>

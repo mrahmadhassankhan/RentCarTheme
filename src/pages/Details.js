@@ -19,17 +19,15 @@ export const Details = () => {
                 <div class="breadcrumbs__items">
                   <div class="breadcrumbs__wrap">
                     <div class="breadcrumbs__item">
-                      <a href="index-2.html" class="breadcrumbs__item-link">
-                        Home
-                      </a>{" "}
-                      <span>/</span>{" "}
-                      <a href="fleet.html" class="breadcrumbs__item-link">
-                        Fleet
-                      </a>{" "}
-                      <span>/</span>{" "}
-                      <a href="details.html" class="breadcrumbs__item-link">
-                        Hyundai i30
-                      </a>
+                      <Link to="/" class="breadcrumbs__item-link" />
+                      Home
+                      <Link /> <span>/</span>{" "}
+                      <Link to="/fleet" class="breadcrumbs__item-link" />
+                      Fleet
+                      <Link /> <span>/</span>{" "}
+                      <Link to="/details" class="breadcrumbs__item-link" />
+                      Hyundai i30
+                      <Link />
                     </div>
                   </div>
                 </div>
@@ -42,9 +40,9 @@ export const Details = () => {
           <div class="row">
             <div class="col-xs-12">
               <div class="model-details-box">
-                <a href="fleet.html" class="back-btn">
-                  Back to Vehicle Fleet
-                </a>
+                <Link to="/fleet" class="back-btn" />
+                Back to Vehicle Fleet
+                <Link />
                 <div class="model-details-box__inner">
                   <div class="model-details-box__info">
                     <h3>Hyundai i30</h3>
@@ -79,9 +77,9 @@ export const Details = () => {
                         <td>A / C</td>
                       </tr>
                     </table>
-                    <a href="#" class="btn">
-                      CHECK RATES
-                    </a>
+                    <Link to="#" class="btn" />
+                    CHECK RATES
+                    <Link />
                   </div>
                   <div class="model-slider-wrapper">
                     <ul id="lightSlider" class="model-slider">
@@ -120,13 +118,13 @@ export const Details = () => {
                         <i class="icon-placeholder-for-map"></i>
                       </div>
                       <div class="text-element stop-location">
-                        <a href="#" class="add" id="add-stop">
-                          <i class="icon-plus-black-symbol"></i>{" "}
-                          <span>Click here to add a stop</span>
-                        </a>
-                        <a href="#" class="link-right">
-                          airports
-                        </a>
+                        <Link to="#" class="add" id="add-stop" />
+                        <i class="icon-plus-black-symbol"></i>{" "}
+                        <span>Click here to add a stop</span>
+                        <Link />
+                        <Link to="#" class="link-right" />
+                        airports
+                        <Link />
                       </div>
                       <div class="location-drop-off">
                         <input
@@ -161,9 +159,9 @@ export const Details = () => {
                             </label>
                           </div>
                         </div>
-                        <a href="#" class="link-right">
-                          airports
-                        </a>
+                        <Link to="#" class="link-right" />
+                        airports
+                        <Link />
                       </div>
 
                       <div class="inner-half__width">

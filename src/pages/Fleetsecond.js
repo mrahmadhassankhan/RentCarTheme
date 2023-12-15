@@ -3,6 +3,7 @@ import { Header } from "../Components/Header";
 import { Tools } from "../Components/Tools";
 import { Loader } from "../Components/Loader";
 import { Footer } from "../Components/Footer";
+import { Link } from "react-router-dom";
 
 export const Fleetsecond = () => {
   return (
@@ -21,13 +22,12 @@ export const Fleetsecond = () => {
                 <div className="breadcrumbs__items">
                   <div className="breadcrumbs__wrap">
                     <div className="breadcrumbs__item">
-                      <a href="index-2.html" className="breadcrumbs__item-link">
-                        Home
-                      </a>{" "}
-                      <span>/</span>{" "}
-                      <a href="fleet.html" className="breadcrumbs__item-link">
-                        Fleet
-                      </a>
+                      <Link to="/" className="breadcrumbs__item-link" />
+                      Home
+                      <Link /> <span>/</span>{" "}
+                      <Link to="/fleet" className="breadcrumbs__item-link" />
+                      Fleet
+                      <Link />
                     </div>
                   </div>
                 </div>
@@ -109,7 +109,7 @@ export const Fleetsecond = () => {
                         id="checkbox-02-01"
                         value="a1"
                       />
-                      <label for="checkbox-02-01">Add. Drivers</label>
+                      <label for="checkbox-02-01">Add Drivers</label>
                     </div>
                     <div className="box-checkbox">
                       <input
@@ -266,13 +266,13 @@ export const Fleetsecond = () => {
                 <div className="gallery row" id="gallery">
                   <div className="gallery__item col-xs-12 col-sm-6 col-xl-4">
                     <figure className="gallery__item__image">
-                      <a className="hover" href="/details">
-                        <img
-                          src="assets/images/gallery/gallery-img-thumb-07.jpg"
-                          alt=""
-                        />
-                        <i className="icon-arrow-down-sign-to-navigate2"></i>
-                      </a>
+                      <Link className="hover" to="/details" />
+                      <img
+                        src="assets/images/gallery/gallery-img-thumb-07.jpg"
+                        alt=""
+                      />
+                      <i className="icon-arrow-down-sign-to-navigate2"></i>
+                      <Link />
                     </figure>
                     <div className="gallery__item__content">
                       <h6>Hyundai Accent Hatchback</h6>
@@ -285,9 +285,9 @@ export const Fleetsecond = () => {
                         </span>
                       </span>
                       <u>
-                        <a href="/details" className="link-gallery">
-                          View Details
-                        </a>
+                        <Link to="/details" className="link-gallery" />
+                        View Details
+                        <Link />
                       </u>
                       <span
                         className="btn btn-mini"
@@ -299,13 +299,13 @@ export const Fleetsecond = () => {
                   </div>
                   <div className="gallery__item col-xs-12 col-sm-6 col-xl-4">
                     <figure className="gallery__item__image">
-                      <a className="hover" href="/details">
-                        <img
-                          src="assets/images/gallery/gallery-img-thumb-08.jpg"
-                          alt=""
-                        />
-                        <i className="icon-arrow-down-sign-to-navigate2"></i>
-                      </a>
+                      <Link className="hover" to="/details" />
+                      <img
+                        src="assets/images/gallery/gallery-img-thumb-08.jpg"
+                        alt=""
+                      />
+                      <i className="icon-arrow-down-sign-to-navigate2"></i>
+                      <Link />
                     </figure>
                     <div className="gallery__item__content">
                       <h6>Hyundai Santa Fe</h6>
@@ -318,9 +318,9 @@ export const Fleetsecond = () => {
                         </span>
                       </span>
                       <u>
-                        <a href="/details" className="link-gallery">
-                          View Details
-                        </a>
+                        <Link to="/details" className="link-gallery" />
+                        View Details
+                        <Link />
                       </u>
                       <span
                         className="btn btn-mini"
@@ -332,13 +332,13 @@ export const Fleetsecond = () => {
                   </div>
                   <div className="gallery__item col-xs-12 col-sm-6 col-xl-4">
                     <figure className="gallery__item__image">
-                      <a className="hover" href="/details">
-                        <img
-                          src="assets/images/gallery/gallery-img-thumb-09.jpg"
-                          alt=""
-                        />
-                        <i className="icon-arrow-down-sign-to-navigate2"></i>
-                      </a>
+                      <Link className="hover" to="/details" />
+                      <img
+                        src="assets/images/gallery/gallery-img-thumb-09.jpg"
+                        alt=""
+                      />
+                      <i className="icon-arrow-down-sign-to-navigate2"></i>
+                      <Link />
                     </figure>
                     <div className="gallery__item__content">
                       <h6>Hyundai i30</h6>
@@ -351,9 +351,9 @@ export const Fleetsecond = () => {
                         </span>
                       </span>
                       <u>
-                        <a href="/details" className="link-gallery">
-                          View Details
-                        </a>
+                        <Link to="/details" className="link-gallery" />
+                        View Details
+                        <Link />
                       </u>
                       <span
                         className="btn btn-mini"
@@ -365,13 +365,13 @@ export const Fleetsecond = () => {
                   </div>
                   <div className="gallery__item col-xs-12 col-sm-6 col-xl-4">
                     <figure className="gallery__item__image">
-                      <a className="hover" href="/details">
-                        <img
-                          src="assets/images/gallery/gallery-img-thumb-10.jpg"
-                          alt=""
-                        />
-                        <i className="icon-arrow-down-sign-to-navigate2"></i>
-                      </a>
+                      <Link className="hover" to="/details" />
+                      <img
+                        src="assets/images/gallery/gallery-img-thumb-10.jpg"
+                        alt=""
+                      />
+                      <i className="icon-arrow-down-sign-to-navigate2"></i>
+                      <Link />
                     </figure>
                     <div className="gallery__item__content">
                       <h6>KIA Sorento</h6>
@@ -384,9 +384,9 @@ export const Fleetsecond = () => {
                         </span>
                       </span>
                       <u>
-                        <a href="/details" className="link-gallery">
-                          View Details
-                        </a>
+                        <Link to="/details" className="link-gallery" />
+                        View Details
+                        <Link />
                       </u>
                       <span
                         className="btn btn-mini"
@@ -398,13 +398,13 @@ export const Fleetsecond = () => {
                   </div>
                   <div className="gallery__item col-xs-12 col-sm-6 col-xl-4">
                     <figure className="gallery__item__image">
-                      <a className="hover" href="/details">
-                        <img
-                          src="assets/images/gallery/gallery-img-thumb-11.jpg"
-                          alt=""
-                        />
-                        <i className="icon-arrow-down-sign-to-navigate2"></i>
-                      </a>
+                      <Link className="hover" to="/details" />
+                      <img
+                        src="assets/images/gallery/gallery-img-thumb-11.jpg"
+                        alt=""
+                      />
+                      <i className="icon-arrow-down-sign-to-navigate2"></i>
+                      <Link />
                     </figure>
                     <div className="gallery__item__content">
                       <h6>Toyota Corolla</h6>
@@ -417,9 +417,9 @@ export const Fleetsecond = () => {
                         </span>
                       </span>
                       <u>
-                        <a href="/details" className="link-gallery">
-                          View Details
-                        </a>
+                        <Link to="/details" className="link-gallery" />
+                        View Details
+                        <Link />
                       </u>
                       <span
                         className="btn btn-mini"
@@ -431,13 +431,13 @@ export const Fleetsecond = () => {
                   </div>
                   <div className="gallery__item col-xs-12 col-sm-6 col-xl-4">
                     <figure className="gallery__item__image">
-                      <a className="hover" href="/details">
-                        <img
-                          src="assets/images/gallery/gallery-img-thumb-12.jpg"
-                          alt=""
-                        />
-                        <i className="icon-arrow-down-sign-to-navigate2"></i>
-                      </a>
+                      <Link className="hover" to="/details" />
+                      <img
+                        src="assets/images/gallery/gallery-img-thumb-12.jpg"
+                        alt=""
+                      />
+                      <i className="icon-arrow-down-sign-to-navigate2"></i>
+                      <Link />
                     </figure>
                     <div className="gallery__item__content">
                       <h6>Mercedes-Benz Van </h6>
@@ -450,9 +450,9 @@ export const Fleetsecond = () => {
                         </span>
                       </span>
                       <u>
-                        <a href="/details" className="link-gallery">
-                          View Details
-                        </a>
+                        <Link to="/details" className="link-gallery" />
+                        View Details
+                        <Link />
                       </u>
                       <span
                         className="btn btn-mini"
@@ -464,13 +464,13 @@ export const Fleetsecond = () => {
                   </div>
                   <div className="gallery__item col-xs-12 col-sm-6 col-xl-4">
                     <figure className="gallery__item__image">
-                      <a className="hover" href="/details">
-                        <img
-                          src="assets/images/gallery/gallery-img-thumb-13.jpg"
-                          alt=""
-                        />
-                        <i className="icon-arrow-down-sign-to-navigate2"></i>
-                      </a>
+                      <Link className="hover" to="/details" />
+                      <img
+                        src="assets/images/gallery/gallery-img-thumb-13.jpg"
+                        alt=""
+                      />
+                      <i className="icon-arrow-down-sign-to-navigate2"></i>
+                      <Link />
                     </figure>
                     <div className="gallery__item__content">
                       <h6>Volkswagen Polo 1.2 TDI MT </h6>
@@ -483,9 +483,9 @@ export const Fleetsecond = () => {
                         </span>
                       </span>
                       <u>
-                        <a href="/details" className="link-gallery">
-                          View Details
-                        </a>
+                        <Link to="/details" className="link-gallery" />
+                        View Details
+                        <Link />
                       </u>
                       <span
                         className="btn btn-mini"
@@ -497,13 +497,13 @@ export const Fleetsecond = () => {
                   </div>
                   <div className="gallery__item col-xs-12 col-sm-6 col-xl-4">
                     <figure className="gallery__item__image">
-                      <a className="hover" href="/details">
-                        <img
-                          src="assets/images/gallery/gallery-img-thumb-14.jpg"
-                          alt=""
-                        />
-                        <i className="icon-arrow-down-sign-to-navigate2"></i>
-                      </a>
+                      <Link className="hover" to="/details" />
+                      <img
+                        src="assets/images/gallery/gallery-img-thumb-14.jpg"
+                        alt=""
+                      />
+                      <i className="icon-arrow-down-sign-to-navigate2"></i>
+                      <Link />
                     </figure>
                     <div className="gallery__item__content">
                       <h6>Citroen C-Elysee</h6>
@@ -516,9 +516,9 @@ export const Fleetsecond = () => {
                         </span>
                       </span>
                       <u>
-                        <a href="/details" className="link-gallery">
-                          View Details
-                        </a>
+                        <Link to="/details" className="link-gallery" />
+                        View Details
+                        <Link />
                       </u>
                       <span
                         className="btn btn-mini"
@@ -530,13 +530,13 @@ export const Fleetsecond = () => {
                   </div>
                   <div className="gallery__item col-xs-12 col-sm-6 col-xl-4">
                     <figure className="gallery__item__image">
-                      <a className="hover" href="/details">
-                        <img
-                          src="assets/images/gallery/gallery-img-thumb-15.jpg"
-                          alt=""
-                        />
-                        <i className="icon-arrow-down-sign-to-navigate2"></i>
-                      </a>
+                      <Link className="hover" to="/details" />
+                      <img
+                        src="assets/images/gallery/gallery-img-thumb-15.jpg"
+                        alt=""
+                      />
+                      <i className="icon-arrow-down-sign-to-navigate2"></i>
+                      <Link />
                     </figure>
                     <div className="gallery__item__content">
                       <h6>KIA Rio Sedan</h6>
@@ -549,9 +549,9 @@ export const Fleetsecond = () => {
                         </span>
                       </span>
                       <u>
-                        <a href="/details" className="link-gallery">
-                          View Details
-                        </a>
+                        <Link to="/details" className="link-gallery" />
+                        View Details
+                        <Link />
                       </u>
                       <span
                         className="btn btn-mini"
@@ -562,126 +562,116 @@ export const Fleetsecond = () => {
                     </div>
                   </div>
                   <div className="gallery__item col-xs-12 col-sm-6 col-xl-4">
-                    <figure className="gallery__item__image">
-                      <a className="hover" href="/details">
-                        <img
-                          src="assets/images/gallery/gallery-img-thumb-16.jpg"
-                          alt=""
-                        />
-                        <i className="icon-arrow-down-sign-to-navigate2"></i>
-                      </a>
-                    </figure>
-                    <div className="gallery__item__content">
-                      <h6>Mercedes-Benz B</h6>
-                      <span className="cost">
-                        <span>
-                          <strong>21$</strong> / hour
-                        </span>
-                        <span>
-                          <strong>110$</strong> / day
-                        </span>
+                    <figure className="gallery__item__image" />
+                    <Link className="hover" to="/details" />
+                    <img
+                      src="assets/images/gallery/gallery-img-thumb-16.jpg"
+                      alt=""
+                    />
+                    <i className="icon-arrow-down-sign-to-navigate2"></i>
+                    <Link />
+                    <figure />
+                    <div className="gallery__item__content" />
+                    <h6>Mercedes-Benz B</h6>
+                    <span className="cost">
+                      <span>
+                        <strong>21$</strong> / hour
                       </span>
-                      <u>
-                        <a href="/details" className="link-gallery">
-                          View Details
-                        </a>
-                      </u>
-                      <span
-                        className="btn btn-mini"
-                        data-remodal-target="modal"
-                      >
-                        Book now
+                      <span>
+                        <strong>110$</strong> / day
                       </span>
-                    </div>
-                  </div>
-                  <div className="gallery__item col-xs-12 col-sm-6 col-xl-4">
-                    <figure className="gallery__item__image">
-                      <a className="hover" href="/details">
-                        <img
-                          src="assets/images/gallery/gallery-img-thumb-17.jpg"
-                          alt=""
-                        />
-                        <i className="icon-arrow-down-sign-to-navigate2"></i>
-                      </a>
-                    </figure>
-                    <div className="gallery__item__content">
-                      <h6>Fiat Panda Fiat Panda 4x4</h6>
-                      <span className="cost">
-                        <span>
-                          <strong>34$</strong> / hour
-                        </span>
-                        <span>
-                          <strong>159$</strong> / day
-                        </span>
-                      </span>
-                      <u>
-                        <a href="/details" className="link-gallery">
-                          View Details
-                        </a>
-                      </u>
-                      <span
-                        className="btn btn-mini"
-                        data-remodal-target="modal"
-                      >
-                        Book now
-                      </span>
-                    </div>
-                  </div>
-                  <div className="gallery__item col-xs-12 col-sm-6 col-xl-4">
-                    <figure className="gallery__item__image">
-                      <a className="hover" href="/details">
-                        <img
-                          src="assets/images/gallery/gallery-img-thumb-18.jpg"
-                          alt=""
-                        />
-                        <i className="icon-arrow-down-sign-to-navigate2"></i>
-                      </a>
-                    </figure>
-                    <div className="gallery__item__content">
-                      <h6>Audi A5</h6>
-                      <span className="cost">
-                        <span>
-                          <strong>30$</strong> / hour
-                        </span>
-                        <span>
-                          <strong>150$</strong> / day
-                        </span>
-                      </span>
-                      <u>
-                        <a href="/details" className="link-gallery">
-                          View Details
-                        </a>
-                      </u>
-                      <span
-                        className="btn btn-mini"
-                        data-remodal-target="modal"
-                      >
-                        Book now
-                      </span>
-                    </div>
+                    </span>
+                    <u>
+                      <Link to="/details" className="link-gallery" />
+                      View Details
+                      <Link />
+                    </u>
+                    <span className="btn btn-mini" data-remodal-target="modal">
+                      Book now
+                    </span>
                   </div>
                 </div>
-
-                <div className="pagination">
-                  <ul>
-                    <li className="active">
-                      <a href="#">1</a>
-                    </li>
-                    <li>
-                      <a href="#">2</a>
-                    </li>
-                    <li>
-                      <a href="#">3</a>
-                    </li>
-                    <li>
-                      <a href="#">4</a>
-                    </li>
-                  </ul>
+                <div className="gallery__item col-xs-12 col-sm-6 col-xl-4">
+                  <figure className="gallery__item__image">
+                    <Link className="hover" to="/details" />
+                    <img
+                      src="assets/images/gallery/gallery-img-thumb-17.jpg"
+                      alt=""
+                    />
+                    <i className="icon-arrow-down-sign-to-navigate2"></i>
+                    <Link />
+                  </figure>
+                  <div className="gallery__item__content">
+                    <h6>Fiat Panda Fiat Panda 4x4</h6>
+                    <span className="cost">
+                      <span>
+                        <strong>34$</strong> / hour
+                      </span>
+                      <span>
+                        <strong>159$</strong> / day
+                      </span>
+                    </span>
+                    <u>
+                      <Link to="/details" className="link-gallery" />
+                      View Details
+                      <Link />
+                    </u>
+                    <span className="btn btn-mini" data-remodal-target="modal">
+                      Book now
+                    </span>
+                  </div>
+                </div>
+                <div className="gallery__item col-xs-12 col-sm-6 col-xl-4">
+                  <figure className="gallery__item__image">
+                    <Link className="hover" to="/details" />
+                    <img
+                      src="assets/images/gallery/gallery-img-thumb-18.jpg"
+                      alt=""
+                    />
+                    <i className="icon-arrow-down-sign-to-navigate2"></i>
+                    <Link />
+                  </figure>
+                  <div className="gallery__item__content">
+                    <h6>Audi A5</h6>
+                    <span className="cost">
+                      <span>
+                        <strong>30$</strong> / hour
+                      </span>
+                      <span>
+                        <strong>150$</strong> / day
+                      </span>
+                    </span>
+                    <u>
+                      <Link to="/details" className="link-gallery" />
+                      View Details
+                      <Link />
+                    </u>
+                    <span className="btn btn-mini" data-remodal-target="modal">
+                      Book now
+                    </span>
+                  </div>
                 </div>
               </div>
+
+              <div className="pagination">
+                <ul>
+                  <li className="active">
+                    <Link to="#" />1<Link />
+                  </li>
+                  <li>
+                    <Link to="#" />2<Link />
+                  </li>
+                  <li>
+                    <Link to="#" />3<Link />
+                  </li>
+                  <li>
+                    <Link to="#" />4<Link />
+                  </li>
+                </ul>
+              </div>
             </div>
-            {/* <!-- //row --> */}
           </div>
+          {/* <!-- //row --> */}
           {/* <!-- //Container --> */}
         </section>
       </main>

@@ -20,11 +20,11 @@ export const Blog = () => {
                 <div className="breadcrumbs__items">
                   <div className="breadcrumbs__wrap">
                     <div className="breadcrumbs__item">
-                      <a href="index-2.html" className="breadcrumbs__item-link">
+                      <a href="/" className="breadcrumbs__item-link">
                         Home
                       </a>{" "}
                       <span>/</span>{" "}
-                      <a href="blog.html" className="breadcrumbs__item-link">
+                      <a href="/blog" className="breadcrumbs__item-link">
                         Blog Posts
                       </a>
                     </div>
@@ -40,7 +40,7 @@ export const Blog = () => {
             <div className="col-xs-12 col-md-8 col-lg-9 post-list">
               <article className="post-list__item format-standart">
                 <figure className="thumbnail post-list__thumbnail">
-                  <a href="single-post.html">
+                  <a href="/single-post">
                     <img src="assets/images/blog-post-img-1.jpg" alt="" />
                   </a>
                 </figure>
@@ -71,7 +71,7 @@ export const Blog = () => {
                     </p>
                   </div>
                   <footer className="post-list__item-footer">
-                    <a href="single-post.html" className="btn">
+                    <a href="/single-post" className="btn">
                       READ POST
                     </a>
                     <div className="social-list">
@@ -142,7 +142,7 @@ export const Blog = () => {
                     </p>
                   </div>
                   <footer className="post-list__item-footer">
-                    <a href="single-post.html" className="btn">
+                    <a href="/single-post" className="btn">
                       READ POST
                     </a>
                     <div className="social-list">
@@ -229,7 +229,7 @@ export const Blog = () => {
                     </blockquote>
                   </div>
                   <footer className="post-list__item-footer">
-                    <a href="single-post.html" className="btn">
+                    <a href="/single-post" className="btn">
                       READ POST
                     </a>
                     <div className="social-list">
@@ -316,7 +316,7 @@ export const Blog = () => {
                     </p>
                   </div>
                   <footer className="post-list__item-footer">
-                    <a href="single-post.html" className="btn">
+                    <a href="/single-post" className="btn">
                       READ POST
                     </a>
                     <div className="social-list">
@@ -392,7 +392,7 @@ export const Blog = () => {
                     </p>
                   </div>
                   <footer className="post-list__item-footer">
-                    <a href="single-post.html" className="btn">
+                    <a href="/single-post" className="btn">
                       READ POST
                     </a>
                     <div className="social-list">
@@ -433,10 +433,10 @@ export const Blog = () => {
               </article>
               <article className="post-list__item format-link">
                 <figure className="thumbnail post-list__thumbnail link-thumb">
-                  <a href="single-post.html">
+                  <a href="/single-post">
                     <img src="assets/images/blog-post-img-5.jpg" alt="" />
                   </a>
-                  <a href="index-2.html" className="post-link">
+                  <a href="/" className="post-link">
                     http://www.rentalcarslink.com
                   </a>
                 </figure>
@@ -467,7 +467,7 @@ export const Blog = () => {
                     </p>
                   </div>
                   <footer className="post-list__item-footer">
-                    <a href="single-post.html" className="btn">
+                    <a href="/single-post" className="btn">
                       READ POST
                     </a>
                     <div className="social-list">
@@ -673,7 +673,7 @@ export const Blog = () => {
                 <h3>Featured Posts</h3>
                 <div className="post-block">
                   <figure className="thumbnail">
-                    <a href="single-post.html">
+                    <a href="/single-post">
                       <img src="assets/images/post-thumb_small-1.jpg" alt="" />
                     </a>
                   </figure>
@@ -691,7 +691,7 @@ export const Blog = () => {
                 </div>
                 <div className="post-block">
                   <figure className="thumbnail">
-                    <a href="single-post.html">
+                    <a href="/single-post">
                       <img src="assets/images/post-thumb_small-2.jpg" alt="" />
                     </a>
                   </figure>

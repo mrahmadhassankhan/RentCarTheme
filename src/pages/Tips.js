@@ -20,14 +20,11 @@ export const Tips = () => {
                 <div className="breadcrumbs__items">
                   <div className="breadcrumbs__wrap">
                     <div className="breadcrumbs__item">
-                      <a href="index-2.html" className="breadcrumbs__item-link">
+                      <a href="/" className="breadcrumbs__item-link">
                         Home
                       </a>{" "}
                       <span>/</span>{" "}
-                      <a
-                        href="tipstesti.html"
-                        className="breadcrumbs__item-link"
-                      >
+                      <a href="/tips" className="breadcrumbs__item-link">
                         Tips &#38; Testimonials
                       </a>
                     </div>

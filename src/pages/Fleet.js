@@ -20,11 +20,11 @@ const Fleet = () => {
                 <div className="breadcrumbs__items">
                   <div className="breadcrumbs__wrap">
                     <div className="breadcrumbs__item">
-                      <a href="index-2.html" className="breadcrumbs__item-link">
+                      <a href="/" className="breadcrumbs__item-link">
                         Home
                       </a>{" "}
                       <span>/</span>{" "}
-                      <a href="fleet.html" className="breadcrumbs__item-link">
+                      <a href="/fleet" className="breadcrumbs__item-link">
                         Fleet
                       </a>
                     </div>

@@ -148,7 +148,7 @@ export const Home = () => {
                       No hidden extras to pay - theft and damage cover included
                     </li>
                   </ul>
-                  <a href="services.html" className="btn">
+                  <a href="/services" className="btn">
                     Read more
                   </a>
                 </div>
@@ -173,7 +173,7 @@ export const Home = () => {
                           Budget Prices for Long <br />
                           Term Rentals
                         </span>
-                        <a href="services.html" className="btn btn__marker">
+                        <a href="/services" className="btn btn__marker">
                           <i className="icon-arrows"></i>
                         </a>
                       </div>
@@ -190,7 +190,7 @@ export const Home = () => {
                           Search Prices and <br />
                           Special Offers
                         </span>
-                        <a href="services.html" className="btn btn__marker">
+                        <a href="/services" className="btn btn__marker">
                           <i className="icon-arrows"></i>
                         </a>
                       </div>
@@ -206,7 +206,7 @@ export const Home = () => {
                         <span className="text-link">
                           Road Assistance &amp; Car Replacement
                         </span>
-                        <a href="services.html" className="btn btn__marker">
+                        <a href="/services" className="btn btn__marker">
                           <i className="icon-arrows"></i>
                         </a>
                       </div>
@@ -235,7 +235,7 @@ export const Home = () => {
                   <a href="#" className="btn" data-remodal-target="modal">
                     BOOK NOW
                   </a>
-                  <a href="contacts.html" className="btn invert">
+                  <a href="html" className="btn invert">
                     EMAIL US
                   </a>
                 </article>
@@ -253,7 +253,7 @@ export const Home = () => {
                 <div className="swiper-wrapper">
                   <div className="model-info swiper-slide">
                     <figure className="thumbnail">
-                      <a href="details.html">
+                      <a href="/details">
                         <img src="assets/images/car_2.png" alt="" />
                       </a>
                     </figure>
@@ -277,7 +277,7 @@ export const Home = () => {
                   </div>
                   <div className="model-info swiper-slide">
                     <figure className="thumbnail">
-                      <a href="details.html">
+                      <a href="/details">
                         <img src="assets/images/car_1.png" alt="" />
                       </a>
                     </figure>
@@ -301,7 +301,7 @@ export const Home = () => {
                   </div>
                   <div className="model-info swiper-slide">
                     <figure className="thumbnail">
-                      <a href="details.html">
+                      <a href="/details">
                         <img src="assets/images/car_4.png" alt="" />
                       </a>
                     </figure>
@@ -325,7 +325,7 @@ export const Home = () => {
                   </div>
                   <div className="model-info swiper-slide">
                     <figure className="thumbnail">
-                      <a href="details.html">
+                      <a href="/details">
                         <img src="assets/images/car_3.png" alt="" />
                       </a>
                     </figure>
@@ -349,7 +349,7 @@ export const Home = () => {
                   </div>
                   <div className="model-info swiper-slide swiper-slide-active">
                     <figure className="thumbnail">
-                      <a href="details.html">
+                      <a href="/details">
                         <img src="assets/images/car_1.png" alt="" />
                       </a>
                     </figure>
@@ -373,7 +373,7 @@ export const Home = () => {
                   </div>
                   <div className="model-info swiper-slide">
                     <figure className="thumbnail">
-                      <a href="details.html">
+                      <a href="/details">
                         <img src="assets/images/car_4.png" alt="" />
                       </a>
                     </figure>
@@ -421,7 +421,7 @@ export const Home = () => {
                 <div className="swiper-slide odd-line">
                   <div className="service-block">
                     <figure className="thumbnail">
-                      <a href="services-post.html">
+                      <a href="/services-post">
                         <img src="assets/images/service_img_1.jpg" alt="" />
                       </a>
                     </figure>
@@ -433,7 +433,7 @@ export const Home = () => {
                         best one-stop transportation service with minimal fuss
                         and maximum comfort.
                       </p>
-                      <a href="services-post.html" className="btn btn__marker">
+                      <a href="/services-post" className="btn btn__marker">
                         <i className="icon-arrows"></i>
                       </a>
                     </div>
@@ -442,7 +442,7 @@ export const Home = () => {
                 <div className="swiper-slide even-line">
                   <div className="service-block">
                     <figure className="thumbnail">
-                      <a href="services-post.html">
+                      <a href="/services-post">
                         <img src="assets/images/service_img_2.jpg" alt="" />
                       </a>
                     </figure>
@@ -454,7 +454,7 @@ export const Home = () => {
                         corporate account allowsus to pre-deliver vehicles to
                         hotels, offices, residences.
                       </p>
-                      <a href="services-post.html" className="btn btn__marker">
+                      <a href="/services-post" className="btn btn__marker">
                         <i className="icon-arrows"></i>
                       </a>
                     </div>
@@ -463,7 +463,7 @@ export const Home = () => {
                 <div className="swiper-slide odd-line">
                   <div className="service-block">
                     <figure className="thumbnail">
-                      <a href="services-post.html">
+                      <a href="/services-post">
                         <img src="assets/images/service_img_3.jpg" alt="" />
                       </a>
                     </figure>
@@ -474,7 +474,7 @@ export const Home = () => {
                         any destination you choose. Or ask for a type of tour or
                         drive you are in the mood for and let us do the rest.{" "}
                       </p>
-                      <a href="services-post.html" className="btn btn__marker">
+                      <a href="/services-post" className="btn btn__marker">
                         <i className="icon-arrows"></i>
                       </a>
                     </div>
@@ -483,7 +483,7 @@ export const Home = () => {
                 <div className="swiper-slide even-line">
                   <div className="service-block">
                     <figure className="thumbnail">
-                      <a href="services-post.html">
+                      <a href="/services-post">
                         <img src="assets/images/service_img_4.jpg" alt="" />
                       </a>
                     </figure>
@@ -495,7 +495,7 @@ export const Home = () => {
                         amazing deals on car rental rates. Give us a call we
                         make it easy and affordable.
                       </p>
-                      <a href="services-post.html" className="btn btn__marker">
+                      <a href="/services-post" className="btn btn__marker">
                         <i className="icon-arrows"></i>
                       </a>
                     </div>
@@ -504,7 +504,7 @@ export const Home = () => {
               </div>
             </div>
             <div className="swiper-pagination swiper-pagination-services-second"></div>
-            <a href="services.html" className="btn">
+            <a href="/services" className="btn">
               MORE SERVICES
             </a>
           </section>
@@ -640,7 +640,7 @@ export const Home = () => {
                       <div className="post-item__content">
                         <span className="date">10 Febr/uary, 2017</span>
                         <h4>Finding Cheap Rental Cars</h4>
-                        <a href="single-post.html" className="btn btn__marker">
+                        <a href="/single-post" className="btn btn__marker">
                           <i className="icon-arrows"></i>
                         </a>
                       </div>
@@ -654,7 +654,7 @@ export const Home = () => {
                       <div className="post-item__content">
                         <span className="date">11 Febr/uary, 2017</span>
                         <h4>19 ways to save money on rental cars</h4>
-                        <a href="single-post.html" className="btn btn__marker">
+                        <a href="/single-post" className="btn btn__marker">
                           <i className="icon-arrows"></i>
                         </a>
                       </div>
@@ -668,7 +668,7 @@ export const Home = () => {
                       <div className="post-item__content">
                         <span className="date">12 Febr/uary, 2017</span>
                         <h4>Finding Cheap Rental Cars</h4>
-                        <a href="single-post.html" className="btn btn__marker">
+                        <a href="/single-post" className="btn btn__marker">
                           <i className="icon-arrows"></i>
                         </a>
                       </div>
@@ -682,7 +682,7 @@ export const Home = () => {
                       <div className="post-item__content">
                         <span className="date">10 Febr/uary, 2017</span>
                         <h4>Finding Cheap Rental Cars</h4>
-                        <a href="single-post.html" className="btn btn__marker">
+                        <a href="/single-post" className="btn btn__marker">
                           <i className="icon-arrows"></i>
                         </a>
                       </div>
@@ -696,7 +696,7 @@ export const Home = () => {
                       <div className="post-item__content">
                         <span className="date">11 Febr/uary, 2017</span>
                         <h4>19 ways to save money on rental cars</h4>
-                        <a href="single-post.html" className="btn btn__marker">
+                        <a href="/single-post" className="btn btn__marker">
                           <i className="icon-arrows"></i>
                         </a>
                       </div>
@@ -710,7 +710,7 @@ export const Home = () => {
                       <div className="post-item__content">
                         <span className="date">12 Febr/uary, 2017</span>
                         <h4>Finding Cheap Rental Cars</h4>
-                        <a href="single-post.html" className="btn btn__marker">
+                        <a href="/single-post" className="btn btn__marker">
                           <i className="icon-arrows"></i>
                         </a>
                       </div>
