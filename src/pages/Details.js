@@ -3,6 +3,7 @@ import { Header } from "../Components/Header";
 import { Tools } from "../Components/Tools";
 import { Loader } from "../Components/Loader";
 import { Footer } from "../Components/Footer";
+import { Link } from "react-router-dom";
 
 export const Details = () => {
   return (
