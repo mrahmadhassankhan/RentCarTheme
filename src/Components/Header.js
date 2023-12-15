@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export const Header = () => {
   return (
     <>
@@ -28,148 +28,148 @@ export const Header = () => {
                 {/* <!-- Left nav --> */}
                 <ul className="menu-navigation__list nav navbar-nav">
                   <li className="current">
-                    <a href="index-2.html">Home</a>
+                    <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <a href="about.html">About us</a>
+                    <Link to="/about-us">About us</Link>
                   </li>
                   <li>
-                    <a href="fleet.html">
+                    <Link to="/fleet">
                       Fleet <i className="icon-arrow-down-sign-to-navigate"></i>
-                    </a>
+                    </Link>
                     <ul className="sub-menu dropdown-menu">
                       <li>
-                        <a href="fleet-second.html">Fleet page 2</a>
+                        <Link to="/fleet-second">Fleet page 2</Link>
                       </li>
                       <li>
-                        <a href="fleet.html">
+                        <Link to="/fleet">
                           Cars{" "}
                           <i className="icon-arrow-down-sign-to-navigate"></i>
-                        </a>
+                        </Link>
                         <ul className="dropdown-menu">
                           <li>
-                            <a href="#">
+                            <Link to="#">
                               Executive Sedans{" "}
                               <i className="icon-arrow-down-sign-to-navigate"></i>
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a href="#">Sub Item 1</a>
+                                <Link to="#">Sub Item 1</Link>
                               </li>
                               <li>
-                                <a href="#">Sub Item 2</a>
+                                <Link to="#">Sub Item 2</Link>
                               </li>
                               <li className="disabled">
-                                <a className="disabled" href="#">
+                                <Link className="disabled" to="#">
                                   Disabled item
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">Sub Item 3</a>
+                                <Link to="#">Sub Item 3</Link>
                               </li>
                               <li>
-                                <a href="#">Sub Item 4</a>
+                                <Link to="#">Sub Item 4</Link>
                               </li>
                               <li>
-                                <a href="#">Sub Item 5</a>
+                                <Link to="#">Sub Item 5</Link>
                               </li>
                               <li>
-                                <a href="#">Sub Item 6</a>
+                                <Link to="#">Sub Item 6</Link>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a href="fleet.html">Luxury Sedans</a>
+                            <Link to="/fleet">Luxury Sedans</Link>
                           </li>
                           <li>
-                            <a href="fleet.html">Limousine</a>
+                            <Link to="/fleet">Limousine</Link>
                           </li>
                           <li>
-                            <a href="fleet.html">Sport Car</a>
+                            <Link to="/fleet">Sport Car</Link>
                           </li>
                           <li>
-                            <a href="fleet.html">SUV</a>
+                            <Link to="/fleet">SUV</Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="fleet.html">Mini bus</a>
+                        <Link to="/fleet">Mini bus</Link>
                       </li>
                       <li>
-                        <a href="fleet.html">Motobikes</a>
+                        <Link to="/fleet">Motobikes</Link>
                       </li>
                       <li>
-                        <a href="fleet.html">Yachts</a>
+                        <Link to="/fleet">Yachts</Link>
                       </li>
                       <li>
-                        <a href="fleet.html">Airplane</a>
+                        <Link to="/fleet">Airplane</Link>
                       </li>
                       <li>
-                        <a href="fleet.html">Helicopter</a>
+                        <Link to="/fleet">Helicopter</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="services.html">
+                    <Link to="/services">
                       Services{" "}
                       <i className="icon-arrow-down-sign-to-navigate"></i>
-                    </a>
+                    </Link>
                     <ul className="sub-menu dropdown-menu">
                       <li>
-                        <a href="services-post.html">
+                        <Link to="/services-post">
                           24 Hour Airport Services
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="services.html">Business Travel</a>
+                        <Link to="/services">Business Travel</Link>
                       </li>
                       <li>
-                        <a href="services.html">Corporate</a>
+                        <Link to="/services">Corporate</Link>
                       </li>
                       <li>
-                        <a href="services.html">Meetings &#38; Events</a>
+                        <Link to="/services">Meetings &#38; Events</Link>
                       </li>
                       <li>
-                        <a href="services.html">Private Tours</a>
+                        <Link to="/services">Private Tours</Link>
                       </li>
                       <li>
-                        <a href="services.html">To My Door</a>
+                        <Link to="/services">To My Door</Link>
                       </li>
                       <li>
-                        <a href="services.html">Chauffeur Service</a>
+                        <Link to="/services">Chauffeur Service</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="rates.html">Rates</a>
+                    <Link to="/rates">Rates</Link>
                   </li>
                   <li>
-                    <a href="ourdrivers.html">Our drivers</a>
+                    <Link to="/ourdrivers">Our drivers</Link>
                   </li>
                   <li>
-                    <a href="tipstesti.html">Tips</a>
+                    <Link to="/tip">Tips</Link>
                   </li>
                   <li>
-                    <a href="blog.html">
+                    <Link to="/blog">
                       Blog <i className="icon-arrow-down-sign-to-navigate"></i>
-                    </a>
+                    </Link>
                     <ul className="sub-menu dropdown-menu">
                       <li>
-                        <a href="blog.html">Blog list</a>
+                        <Link to="/blog">Blog list</Link>
                       </li>
                       <li>
-                        <a href="blog-masonry.html">Masonry layout</a>
+                        <Link to="/blog-masonry">Masonry layout</Link>
                       </li>
                       <li>
-                        <a href="single-post.html">Single Post</a>
+                        <Link to="single-post.html">Single Post</Link>
                       </li>
                       <li>
-                        <a href="typography.html">Typography</a>
+                        <Link to="typography.html">Typography</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="contacts.html">Contacts</a>
+                    <Link to="/contact-us">Contacts</Link>
                   </li>
                 </ul>
               </div>
@@ -179,27 +179,30 @@ export const Header = () => {
               <span className="social-list__text">Find us here:</span>
               <ul className="social-list__icons">
                 <li>
-                  <a
+                  <Link
                     target="_blank"
-                    href="https://www.facebook.com/Tonytemplates/?ref=hl"
+                    to="https://www.facebook.com/Tonytemplates/?ref=hl"
                   >
                     <i className="icon-facebook-logo"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a target="_blank" href="https://twitter.com/tonytemplates/">
+                  <Link target="_blank" to="https://twitter.com/tonytemplates/">
                     <i className="icon-twitter-letter-logo"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a target="_blank" href="https://plus.google.com/">
+                  <Link target="_blank" to="https://plus.google.com/">
                     <i className="icon-google-plus"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a target="_blank" href="https://www.linkedin.com/uas/login?">
+                  <Link
+                    target="_blank"
+                    to="https://www.linkedin.com/uas/login?"
+                  >
                     <i className="icon-linkedin-logo"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -208,36 +211,39 @@ export const Header = () => {
         <div className="header-container_wrap container">
           <div className="header-container__flex">
             <div className="logo">
-              <a href="index-2.html">
+              <Link to="i/">
                 <i className="icon-logo"></i>
                 <span>Rental</span>Cars
-              </a>
+              </Link>
             </div>
             <div className="social-list">
               <span className="social-list__text">Find us here:</span>
               <ul className="social-list__icons">
                 <li>
-                  <a
+                  <Link
                     target="_blank"
-                    href="https://www.facebook.com/Tonytemplates/?ref=hl"
+                    to="https://www.facebook.com/Tonytemplates/?ref=hl"
                   >
                     <i className="icon-facebook-logo"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a target="_blank" href="https://twitter.com/tonytemplates/">
+                  <Link target="_blank" to="https://twitter.com/tonytemplates/">
                     <i className="icon-twitter-letter-logo"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a target="_blank" href="https://plus.google.com/">
+                  <Link target="_blank" to="https://plus.google.com/">
                     <i className="icon-google-plus"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a target="_blank" href="https://www.linkedin.com/uas/login?">
+                  <Link
+                    target="_blank"
+                    to="https://www.linkedin.com/uas/login?"
+                  >
                     <i className="icon-linkedin-logo"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -273,160 +279,160 @@ export const Header = () => {
                 {/* <!-- Left nav --> */}
                 <ul className="menu-navigation__list nav navbar-nav">
                   <li className="current">
-                    <a href="index-2.html" data-hover="Home">
+                    <Link to="/" data-hover="Home">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="about.html" data-hover="About us">
+                    <Link to="/about-us" data-hover="About us">
                       About us
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="fleet.html" data-hover="Fleet">
+                    <Link to="/fleet" data-hover="Fleet">
                       Fleet <i className="icon-arrow-down-sign-to-navigate"></i>
-                    </a>
+                    </Link>
                     <ul className="sub-menu dropdown-menu">
                       <li>
-                        <a href="fleet-second.html">Fleet page 2</a>
+                        <Link to="/fleet-second">Fleet page 2</Link>
                       </li>
                       <li>
-                        <a href="fleet.html">
+                        <Link to="/fleet">
                           Cars{" "}
                           <i className="icon-arrow-down-sign-to-navigate"></i>
-                        </a>
+                        </Link>
                         <ul className="dropdown-menu">
                           <li>
-                            <a href="#">
+                            <Link to="#">
                               Executive Sedans{" "}
                               <i className="icon-arrow-down-sign-to-navigate"></i>
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a href="#">Sub Item 1</a>
+                                <Link to="#">Sub Item 1</Link>
                               </li>
                               <li>
-                                <a href="#">Sub Item 2</a>
+                                <Link to="#">Sub Item 2</Link>
                               </li>
                               <li className="disabled">
-                                <a className="disabled" href="#">
+                                <Link to="/" className="disabled">
                                   Disabled item
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">Sub Item 3</a>
+                                <Link to="#">Sub Item 3</Link>
                               </li>
                               <li>
-                                <a href="#">Sub Item 4</a>
+                                <Link to="#">Sub Item 4</Link>
                               </li>
                               <li>
-                                <a href="#">Sub Item 5</a>
+                                <Link to="#">Sub Item 5</Link>
                               </li>
                               <li>
-                                <a href="#">Sub Item 6</a>
+                                <Link to="#">Sub Item 6</Link>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a href="fleet.html">Luxury Sedans</a>
+                            <Link to="/fleet">Luxury Sedans</Link>
                           </li>
                           <li>
-                            <a href="fleet.html">Limousine</a>
+                            <Link to="/fleet">Limousine</Link>
                           </li>
                           <li>
-                            <a href="fleet.html">Sport Car</a>
+                            <Link to="/fleet">Sport Car</Link>
                           </li>
                           <li>
-                            <a href="fleet.html">SUV</a>
+                            <Link to="/fleet">SUV</Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="fleet.html">Mini bus</a>
+                        <Link to="/fleet">Mini bus</Link>
                       </li>
                       <li>
-                        <a href="fleet.html">Motobikes</a>
+                        <Link to="/fleet">Motobikes</Link>
                       </li>
                       <li>
-                        <a href="fleet.html">Yachts</a>
+                        <Link to="/fleet">Yachts</Link>
                       </li>
                       <li>
-                        <a href="fleet.html">Airplane</a>
+                        <Link to="/fleet">Airplane</Link>
                       </li>
                       <li>
-                        <a href="fleet.html">Helicopter</a>
+                        <Link to="/fleet">Helicopter</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="services.html" data-hover="Services">
+                    <Link to="/services" data-hover="Services">
                       Services{" "}
                       <i className="icon-arrow-down-sign-to-navigate"></i>
-                    </a>
+                    </Link>
                     <ul className="sub-menu dropdown-menu">
                       <li>
-                        <a href="services-post.html">
+                        <Link to="/services-post">
                           24 Hour Airport Services
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="services.html">Business Travel</a>
+                        <Link to="/services">Business Travel</Link>
                       </li>
                       <li>
-                        <a href="services.html">Corporate</a>
+                        <Link to="/services">Corporate</Link>
                       </li>
                       <li>
-                        <a href="services.html">Meetings &#38; Events</a>
+                        <Link to="/services">Meetings &#38; Events</Link>
                       </li>
                       <li>
-                        <a href="services.html">Private Tours</a>
+                        <Link to="/services">Private Tours</Link>
                       </li>
                       <li>
-                        <a href="services.html">To My Door</a>
+                        <Link to="/services">To My Door</Link>
                       </li>
                       <li>
-                        <a href="services.html">Chauffeur Service</a>
+                        <Link to="/services">Chauffeur Service</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="rates.html" data-hover="Rates">
+                    <Link to="/rates" data-hover="Rates">
                       Rates
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="ourdrivers.html" data-hover="Our drivers">
+                    <Link to="/ourdrivers" data-hover="Our drivers">
                       Our drivers
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="tipstesti.html" data-hover="Testimonials">
+                    <Link to="/tip" data-hover="Testimonials">
                       Tips
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="blog.html" data-hover="Blog">
+                    <Link to="/blog" data-hover="Blog">
                       Blog <i className="icon-arrow-down-sign-to-navigate"></i>
-                    </a>
+                    </Link>
                     <ul className="sub-menu dropdown-menu">
                       <li>
-                        <a href="blog.html">Blog list</a>
+                        <Link to="/blog">Blog list</Link>
                       </li>
                       <li>
-                        <a href="blog-masonry.html">Masonry layout</a>
+                        <Link to="/blog-masonry">Masonry layout</Link>
                       </li>
                       <li>
-                        <a href="single-post.html">Single Post</a>
+                        <Link to="single-post.html">Single Post</Link>
                       </li>
                       <li>
-                        <a href="typography.html">Typography</a>
+                        <Link to="typography.html">Typography</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="contacts.html" data-hover="Contacts">
+                    <Link to="/contact-us" data-hover="Contacts">
                       Contacts
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

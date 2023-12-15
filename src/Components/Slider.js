@@ -5,21 +5,21 @@ export const Slider = () => {
     <div className="slider-wrapper theme-default">
       <div id="slider" className="nivoSlider">
         <img
-          src="assets/images/slider/slide_1.jpg"
+          src="%PUBLIC_URL%/assests/images/slider/slide_1.jpg"
           title="#htmlcaption1"
-          data-thumb="assets/images/slider/slide_1.jpg"
+          data-thumb="%PUBLIC_URL%/assests/images/slider/slide_1.jpg"
           alt=""
         />
         <img
-          src="assets/images/slider/slide_2.jpg"
+          src="%PUBLIC_URL%/assests/images/slider/slide_2.jpg"
           title="#htmlcaption2"
-          data-thumb="assets/images/slider/slide_2.jpg"
+          data-thumb="%PUBLIC_URL%/assests/images/slider/slide_2.jpg"
           alt=""
         />
         <img
-          src="assets/images/slider/slide_3.jpg"
+          src="%PUBLIC_URL%/assests/images/slider/slide_3.jpg"
           title="#htmlcaption3"
-          data-thumb="assets/images/slider/slide_3.jpg"
+          data-thumb="%PUBLIC_URL%/assests/images/slider/slide_3.jpg"
           alt=""
         />
       </div>

@@ -1,93 +1,15 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import { Header } from "../Components/Header";
 import { Footer } from "../Components/Footer";
 import { Loader } from "../Components/Loader";
 import { Slider } from "../Components/Slider";
+import { Tools } from "../Components/Tools";
 
 export const Home = () => {
   return (
     <>
-      <Helmet>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
-        />
-        <meta name="description" content="html 5 template" />
-        <meta name="author" content="tonytemplates.com" />
-
-        <link rel="icon" href="favicon.ico" />
-        <title>Rent a car - HTML 5 TEMPLATE</title>
-        {/* Bootstrap core CSS */}
-        <script>
-          {`
-            if ( top !== self && ['iPad', 'iPhone', 'iPod'].indexOf(navigator.platform) >= 0 ) top.location.replace( self.location.href );
-          `}
-        </script>
-        <link href="assets/css/plugins/bootstrap.min.css" rel="stylesheet" />
-        <link
-          href="assets/css/plugins/jquery.smartmenus.bootstrap.css"
-          rel="stylesheet"
-        />
-        <link href="assets/css/plugins/nivo-slider.css" rel="stylesheet" />
-        <link href="assets/css/plugins/swiper.min.css" rel="stylesheet" />
-        <link href="assets/css/plugins/intlTelInput.min.css" rel="stylesheet" />
-        <link href="assets/css/plugins/remodal.min.css" rel="stylesheet" />
-        <link
-          href="assets/css/plugins/bootstrap-datetimepicker.css"
-          rel="stylesheet"
-        />
-        <link href="assets/css/plugins/animate.css" rel="stylesheet" />
-        <link href="assets/css/main-style.css" rel="stylesheet" />
-        {/* HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries */}
-        {`
-          <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-          <![endif]-->
-        `}
-        {/* Icon Font */}
-        <link href="iconfont/style.css" rel="stylesheet" />
-        {/* Google Fonts */}
-        <link
-          href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
-          rel="stylesheet"
-        />
-      </Helmet>
       <body className="page__home">
-        <div className="tools">
-          <span className="toggle">
-            <img
-              src="assets/images/color-icon.png"
-              className="img-responsive"
-              alt=""
-            />
-          </span>
-          <a href="#" className="color-blue">
-            Blue
-          </a>
-          <a href="#" className="color-yellow">
-            Yellow
-          </a>
-          <a href="#" className="color-turquoise">
-            Turquoise
-          </a>
-          <a href="#" className="color-orange">
-            Orange
-          </a>
-          <a href="#" className="color-orange-sec">
-            Orange-second
-          </a>
-          <a href="#" className="color-lightblue">
-            Lightblue
-          </a>
-          <a href="#" className="color-pink">
-            Pink
-          </a>
-        </div>
+        <Tools />
         {/* <!-- Loader --> */}
         <Loader />
         {/* <!-- //Loader --> */}
@@ -104,7 +26,7 @@ export const Home = () => {
             <div className="container">
               <div className="row">
                 <div className="col-lg-12">
-                  <form id="book-form" className="book-form" action="#">
+                  <form id="book-form" className="book-form">
                     <span className="book-form__title">
                       Book Now
                       <small>Best Price Online</small>
