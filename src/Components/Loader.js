@@ -1,14 +1,13 @@
 import React from "react";
 
 export const Loader = () => {
-  // This event is triggered when the entire page has finished loading
-  window.onload = () => {
-    // Hide the loader or perform any other actions
-    document.querySelector(".plash").style.display = "none";
+  const LoaderHide = () => {
+    setTimeout(() => {
+      document.querySelector(".plash").style.display = "none";
+    }, 500);
   };
-
   return (
-    <div className="plash">
+    <div className="plash" onLoad={LoaderHide()}>
       <div id="scene">
         <span></span>
         <div id="road">
