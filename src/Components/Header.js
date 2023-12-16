@@ -25,13 +25,12 @@ export const Header = () => {
                 </button>
               </div>
               <div className="menu-navigation navbar-collapse collapse">
-                {/* <!-- Left nav --> */}
                 <ul className="menu-navigation__list nav navbar-nav">
                   <li className="current">
                     <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <Link to="/about-us">About us</Link>
+                    <Link to="/about">About us</Link>
                   </li>
                   <li>
                     <Link to="/fleet">
@@ -48,33 +47,33 @@ export const Header = () => {
                         </Link>
                         <ul className="dropdown-menu">
                           <li>
-                            <Link to="#">
+                            <Link to="/">
                               Executive Sedans{" "}
                               <i className="icon-arrow-down-sign-to-navigate"></i>
                             </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <Link to="#">Sub Item 1</Link>
+                                <Link to="/">Sub Item 1</Link>
                               </li>
                               <li>
-                                <Link to="#">Sub Item 2</Link>
+                                <Link to="/">Sub Item 2</Link>
                               </li>
                               <li className="disabled">
-                                <Link className="disabled" to="#">
+                                <Link className="disabled" to="/">
                                   Disabled item
                                 </Link>
                               </li>
                               <li>
-                                <Link to="#">Sub Item 3</Link>
+                                <Link to="/">Sub Item 3</Link>
                               </li>
                               <li>
-                                <Link to="#">Sub Item 4</Link>
+                                <Link to="/">Sub Item 4</Link>
                               </li>
                               <li>
-                                <Link to="#">Sub Item 5</Link>
+                                <Link to="/">Sub Item 5</Link>
                               </li>
                               <li>
-                                <Link to="#">Sub Item 6</Link>
+                                <Link to="/">Sub Item 6</Link>
                               </li>
                             </ul>
                           </li>
@@ -144,10 +143,7 @@ export const Header = () => {
                     <Link to="/rates">Rates</Link>
                   </li>
                   <li>
-                    <Link to="/ourdrivers">Our drivers</Link>
-                  </li>
-                  <li>
-                    <Link to="/tip">Tips</Link>
+                    <Link to="/drivers">Our drivers</Link>
                   </li>
                   <li>
                     <Link to="/blog">
@@ -158,10 +154,10 @@ export const Header = () => {
                         <Link to="/blog">Blog list</Link>
                       </li>
                       <li>
-                        <Link to="/blog-masonry">Masonry layout</Link>
+                        <Link to="/blog-mansonry">Masonry layout</Link>
                       </li>
                       <li>
-                        <Link to="single-post.html">Single Post</Link>
+                        <Link to="/single-post">Single Post</Link>
                       </li>
                       <li>
                         <Link to="typography.html">Typography</Link>
@@ -169,38 +165,37 @@ export const Header = () => {
                     </ul>
                   </li>
                   <li>
-                    <Link to="/contact-us">Contacts</Link>
+                    <Link to="/contactus">Contacts</Link>
+                  </li>
+                  <li>
+                    <Link to="/register">Register/Login</Link>
                   </li>
                 </ul>
               </div>
-              {/* <!--/.nav-collapse --> */}
             </div>
             <div className="social-list">
               <span className="social-list__text">Find us here:</span>
               <ul className="social-list__icons">
                 <li>
                   <Link
-                    target="_blank"
+                    target="/"
                     to="https://www.facebook.com/Tonytemplates/?ref=hl"
                   >
                     <i className="icon-facebook-logo"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link target="_blank" to="https://twitter.com/tonytemplates/">
+                  <Link target="/" to="https://twitter.com/tonytemplates/">
                     <i className="icon-twitter-letter-logo"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link target="_blank" to="https://plus.google.com/">
+                  <Link target="/" to="https://plus.google.com/">
                     <i className="icon-google-plus"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    target="_blank"
-                    to="https://www.linkedin.com/uas/login?"
-                  >
+                  <Link target="/" to="https://www.linkedin.com/uas/login?">
                     <i className="icon-linkedin-logo"></i>
                   </Link>
                 </li>
@@ -211,7 +206,7 @@ export const Header = () => {
         <div className="header-container_wrap container">
           <div className="header-container__flex">
             <div className="logo">
-              <Link to="i/">
+              <Link to="/">
                 <i className="icon-logo"></i>
                 <span>Rental</span>Cars
               </Link>
@@ -221,27 +216,24 @@ export const Header = () => {
               <ul className="social-list__icons">
                 <li>
                   <Link
-                    target="_blank"
+                    target="/"
                     to="https://www.facebook.com/Tonytemplates/?ref=hl"
                   >
                     <i className="icon-facebook-logo"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link target="_blank" to="https://twitter.com/tonytemplates/">
+                  <Link target="/" to="https://twitter.com/tonytemplates/">
                     <i className="icon-twitter-letter-logo"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link target="_blank" to="https://plus.google.com/">
+                  <Link target="/" to="https://plus.google.com/">
                     <i className="icon-google-plus"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    target="_blank"
-                    to="https://www.linkedin.com/uas/login?"
-                  >
+                  <Link target="/" to="https://www.linkedin.com/uas/login?">
                     <i className="icon-linkedin-logo"></i>
                   </Link>
                 </li>
@@ -256,7 +248,6 @@ export const Header = () => {
           </div>
         </div>
         <div className="header-navigation-wrap stickUp">
-          {/* <!-- Navbar fixed top --> */}
           <div
             className="navbar navbar-default navbar-fixed-top"
             role="navigation"
@@ -276,7 +267,6 @@ export const Header = () => {
                 </button>
               </div>
               <div className="menu-navigation navbar-collapse collapse">
-                {/* <!-- Left nav --> */}
                 <ul className="menu-navigation__list nav navbar-nav">
                   <li className="current">
                     <Link to="/" data-hover="Home">
@@ -284,7 +274,7 @@ export const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/about-us" data-hover="About us">
+                    <Link to="/about" data-hover="About us">
                       About us
                     </Link>
                   </li>
@@ -303,33 +293,33 @@ export const Header = () => {
                         </Link>
                         <ul className="dropdown-menu">
                           <li>
-                            <Link to="#">
+                            <Link to="/">
                               Executive Sedans{" "}
                               <i className="icon-arrow-down-sign-to-navigate"></i>
                             </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <Link to="#">Sub Item 1</Link>
+                                <Link to="/">Sub Item 1</Link>
                               </li>
                               <li>
-                                <Link to="#">Sub Item 2</Link>
+                                <Link to="/">Sub Item 2</Link>
                               </li>
                               <li className="disabled">
-                                <Link to="/" className="disabled">
+                                <Link className="disabled" to="/">
                                   Disabled item
                                 </Link>
                               </li>
                               <li>
-                                <Link to="#">Sub Item 3</Link>
+                                <Link to="/">Sub Item 3</Link>
                               </li>
                               <li>
-                                <Link to="#">Sub Item 4</Link>
+                                <Link to="/">Sub Item 4</Link>
                               </li>
                               <li>
-                                <Link to="#">Sub Item 5</Link>
+                                <Link to="/">Sub Item 5</Link>
                               </li>
                               <li>
-                                <Link to="#">Sub Item 6</Link>
+                                <Link to="/">Sub Item 6</Link>
                               </li>
                             </ul>
                           </li>
@@ -366,7 +356,7 @@ export const Header = () => {
                   </li>
                   <li>
                     <Link to="/services" data-hover="Services">
-                      Services{" "}
+                      Services &nbsp;{" "}
                       <i className="icon-arrow-down-sign-to-navigate"></i>
                     </Link>
                     <ul className="sub-menu dropdown-menu">
@@ -401,13 +391,8 @@ export const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/ourdrivers" data-hover="Our drivers">
+                    <Link to="/drivers" data-hover="Our drivers">
                       Our drivers
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/tip" data-hover="Testimonials">
-                      Tips
                     </Link>
                   </li>
                   <li>
@@ -419,10 +404,10 @@ export const Header = () => {
                         <Link to="/blog">Blog list</Link>
                       </li>
                       <li>
-                        <Link to="/blog-masonry">Masonry layout</Link>
+                        <Link to="/blog-mansonry">Masonry layout</Link>
                       </li>
                       <li>
-                        <Link to="single-post.html">Single Post</Link>
+                        <Link to="/single-post">Single Post</Link>
                       </li>
                       <li>
                         <Link to="typography.html">Typography</Link>
@@ -430,15 +415,27 @@ export const Header = () => {
                     </ul>
                   </li>
                   <li>
-                    <Link to="/contact-us" data-hover="Contacts">
+                    <Link to="/contactus" data-hover="Contacts">
                       Contacts
                     </Link>
                   </li>
+                  <li>
+                    <Link to="/register" data-hover="Register/Login">
+                      Register/Login&nbsp; &nbsp;
+                      <i className="icon-arrow-down-sign-to-navigate"></i>
+                    </Link>
+                    <ul className="sub-menu dropdown-menu">
+                      <li>
+                        <Link to="/register">Register</Link>
+                      </li>
+                      <li>
+                        <Link to="/login">Login</Link>
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
               </div>
-              {/* <!--/.nav-collapse --> */}
             </div>
-            {/* <!--/.container --> */}
           </div>
         </div>
       </header>

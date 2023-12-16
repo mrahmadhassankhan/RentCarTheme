@@ -14,6 +14,9 @@ import { Fleetsecond } from "../pages/Fleetsecond";
 import { Details } from "../pages/Details";
 import { ServicesPost } from "../pages/ServicesPost";
 import { Example } from "../pages/Example";
+import Login from "../pages/Login";
+import { ForgotPassword } from "../pages/ForgotPassword";
+import Register from "../pages/Register";
 export const MenuRoutes = () => {
   return (
     <BrowserRouter>
@@ -36,6 +39,9 @@ export const MenuRoutes = () => {
         <Route path="/details" element={<Details />}></Route>
         <Route path="/services-post" element={<ServicesPost />}></Route>
         <Route path="/example" element={<Example />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/register" element={<Register />}></Route>
+        <Route path="/forgot-password" element={<ForgotPassword />}></Route>
       </Routes>
     </BrowserRouter>
   );
