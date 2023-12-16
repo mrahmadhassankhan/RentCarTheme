@@ -2,8 +2,8 @@ import React from "react";
 import { Header } from "../Components/Header";
 import { Footer } from "../Components/Footer";
 import { Loader } from "../Components/Loader";
-import { Slider } from "../Components/Slider";
 import { Tools } from "../Components/Tools";
+import { Slider } from "../Components/Slider";
 
 export const Home = () => {
   return (
@@ -122,10 +122,7 @@ export const Home = () => {
             </div>
           </div>
           <div className="parallax_box">
-            <figure
-              className="thumbnail move_img wow slideInLeft"
-              data-wow-delay="0.5s"
-            ></figure>
+            <figure className=" move_img " data-wow-delay="0.5s"></figure>
             <div className="container">
               <div className="row">
                 <div className="col-sm-12 col-lg-6 col-lg-push-6">

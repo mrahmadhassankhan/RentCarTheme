@@ -8958,7 +8958,7 @@ body.color-turquoise #road {
   width: 46%;
   text-align: center;
   font-size: 4em;
-  background: transparent url(../images/move_car.png) right center no-repeat;
+  background: transparent url('/assets/images/move_car.png') right center no-repeat;
 }
 
 .move_img img {

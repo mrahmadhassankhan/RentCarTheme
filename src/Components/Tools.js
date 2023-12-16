@@ -6,7 +6,7 @@ export const Tools = () => {
       <div className="tools">
         <span className="toggle">
           <img
-            src="%PUBLIC_URL%/assets/images/color-icon.png"
+            src="/assets/images/color-icon.png"
             className="img-responsive"
             alt=""
           />
