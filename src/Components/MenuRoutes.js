@@ -13,6 +13,7 @@ import { BlogMasonry } from "../pages/BlogMasonry";
 import { Fleetsecond } from "../pages/Fleetsecond";
 import { Details } from "../pages/Details";
 import { ServicesPost } from "../pages/ServicesPost";
+import { Example } from "../pages/Example";
 export const MenuRoutes = () => {
   return (
     <BrowserRouter>
@@ -34,6 +35,7 @@ export const MenuRoutes = () => {
         <Route path="/rates" element={<Rates />}></Route>
         <Route path="/details" element={<Details />}></Route>
         <Route path="/services-post" element={<ServicesPost />}></Route>
+        <Route path="/example" element={<Example />}></Route>
       </Routes>
     </BrowserRouter>
   );
