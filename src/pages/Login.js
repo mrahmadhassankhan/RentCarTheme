@@ -44,6 +44,13 @@ export default function Login() {
               </Link>
             </span>
           </div>
+          <div className={styles["form-link"]}>
+            <span>
+              <Link to="/" className={styles["login-link"]}>
+                Back to Home
+              </Link>
+            </span>
+          </div>
         </div>
       </div>
     </div>
