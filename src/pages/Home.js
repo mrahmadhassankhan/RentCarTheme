@@ -4,6 +4,8 @@ import { Footer } from "../Components/Footer";
 import { Loader } from "../Components/Loader";
 import { Tools } from "../Components/Tools";
 import { SliderCar } from "../Components/Slider";
+import style from "../pages/Home.module.css";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
@@ -152,91 +154,71 @@ export const Home = () => {
               </div>
             </div>
           </div>
-          <div className="services-box">
-            <div className="container">
-              <div className="box-list-posts swiper-container-services swiper-container">
-                <div className="swiper-wrapper">
-                  <div className="swiper-slide">
-                    <div className="post-column">
-                      <figure className="thumbnail">
-                        <img src="assets/images/post-sm-img-1.jpg" alt="" />
-                      </figure>
-                      <div className="post-column__content">
-                        <h3>
-                          Nearest
-                          <br /> Airport Deals
-                        </h3>
-                        <span className="text-link">
-                          Budget Prices for Long <br />
-                          Term Rentals
-                        </span>
-                        <a href="/services" className="btn btn__marker">
-                          <i className="icon-arrows"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="swiper-slide">
-                    <div className="post-column">
-                      <figure className="thumbnail">
-                        <img src="assets/images/post-sm-img-2.jpg" alt="" />
-                      </figure>
-                      <div className="post-column__content">
-                        <h3>Online Reservations</h3>
-                        <span className="text-link">
-                          Search Prices and <br />
-                          Special Offers
-                        </span>
-                        <a href="/services" className="btn btn__marker">
-                          <i className="icon-arrows"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="swiper-slide">
-                    <div className="post-column">
-                      <figure className="thumbnail">
-                        <img src="assets/images/post-sm-img-3.jpg" alt="" />
-                      </figure>
-                      <div className="post-column__content">
-                        <h3>24/7 Road Assistance</h3>
-                        <span className="text-link">
-                          Road Assistance &amp; Car Replacement
-                        </span>
-                        <a href="/services" className="btn btn__marker">
-                          <i className="icon-arrows"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-pagination swiper-pagination-services"></div>
+
+          <div className={style["container-below-welcome"]}>
+            <div className={style["below-one"]}>
+              <figure className={style["fig-1-below"]}>
+                <img src="assets/images/post-sm-img-1.jpg" alt="" />
+              </figure>
+              <div>
+                <h3>
+                  Nearest
+                  <br /> Airport Deals
+                </h3>
+                <span className="text-link">
+                  Budget Prices for Long <br />
+                  Term Rentals
+                </span>
+                <Link to="/services" className="btn btn__marker">
+                  <i className="icon-arrows text-white"></i>
+                </Link>
               </div>
-              {/* <!-- // box-list-posts  --> */}
+            </div>
+
+            <div className={style["below-two"]}>
+              <figure className={style["fig-2-below"]}>
+                <img src="assets/images/post-sm-img-2.jpg" alt="" />
+              </figure>
+              <div>
+                <h3>Online Reservations</h3>
+                <span className="text-link">
+                  Search Prices and <br />
+                  Special Offers
+                </span>
+                <Link to="/services" className="btn btn__marker">
+                  {" "}
+                  <i className="icon-arrows text-white"></i>{" "}
+                </Link>
+              </div>
+            </div>
+
+            <div className={style["below-three"]}>
+              <figure className={style["fig-3-below"]}>
+                <img src="assets/images/post-sm-img-3.jpg" alt="" />
+              </figure>
+              <div>
+                {" "}
+                <h3>24/7 Road Assistance</h3>
+                <span className="text-link">
+                  Road Assistance &amp; Car Replacement
+                </span>
+                <Link to="/services" className="btn btn__marker">
+                  {" "}
+                  <i className="icon-arrows text-white"></i>{" "}
+                </Link>
+              </div>
             </div>
           </div>
 
-          <div className="container">
-            <div className="row info-box">
-              <div className="col-xs-12">
-                <article
-                  className="wow fadeInDown"
-                  data-wow-duration="1s"
-                  data-wow-delay="0.2s"
-                >
-                  <h1>Start your travel planning here</h1>
-                  <span className="text-link">
-                    Drive away with more money in your pockets and more time on
-                    your itinerary.
-                  </span>
-                  <a href="#" className="btn" data-remodal-target="modal">
-                    BOOK NOW
-                  </a>
-                  <a href="html" className="btn invert">
-                    EMAIL US
-                  </a>
-                </article>
-              </div>
+          <div className={style["container-start-planning"]}>
+            <h1>Start your travel planning here</h1>
+            <span className="text-link">
+              Drive away with more money in your pockets and more time on your
+              itinerary.
+            </span>
+            <div>
+              <button className={style["btns-bro"]}>BOOK NOW</button>
+              <button className={style["btns-bro"]}>EMAIL US</button>
             </div>
           </div>
 

@@ -1,0 +1,30 @@
+.container-below-welcome{
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.below-one,.below-two,.below-three{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #353639;
+text-align: center;
+}
+
+h3,i{
+  color: white;
+}
+
+
+.container-start-planning  {
+  margin: 100px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns-bro{
+margin: 15px;
+}
