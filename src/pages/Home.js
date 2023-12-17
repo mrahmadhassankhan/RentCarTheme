@@ -3,7 +3,7 @@ import { Header } from "../Components/Header";
 import { Footer } from "../Components/Footer";
 import { Loader } from "../Components/Loader";
 import { Tools } from "../Components/Tools";
-import { Slider } from "../Components/Slider";
+import { SliderCar } from "../Components/Slider";
 
 export const Home = () => {
   return (
@@ -19,7 +19,7 @@ export const Home = () => {
         {/* <!-- Content  --> */}
         <main id="page-content">
           {/* <!-- Slider --> */}
-          <Slider />
+          <SliderCar />
           {/* <!-- Slider --> */}
 
           <div className="book-form-box">
