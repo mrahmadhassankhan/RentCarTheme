@@ -25,7 +25,7 @@ export default function Register() {
                 />
               </div>
 
-              <div className={styles["field input-field"]}>
+              <div className={styles["input-field"]}>
                 <input
                   type="password"
                   placeholder="Confirm password"

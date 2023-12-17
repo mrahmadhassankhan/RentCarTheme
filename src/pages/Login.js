@@ -9,7 +9,7 @@ export default function Login() {
         <div className={styles["form-content"]}>
           <header>Login</header>
           <form action="#">
-            <div className={styles["field input-field"]}>
+            <div className={styles["input-field"]}>
               <input
                 type="email"
                 placeholder="Email"
@@ -17,13 +17,12 @@ export default function Login() {
               />
             </div>
 
-            <div className={styles["field input-field"]}>
+            <div className={styles["input-field"]}>
               <input
                 type="password"
                 placeholder="Password"
                 className={styles["password"]}
               />
-              <i className={styles["bx bx-hide eye-icon"]}></i>
             </div>
 
             <div className={styles["form-link"]}>

@@ -9,7 +9,7 @@ export const ForgotPassword = () => {
           <div className={styles["form-content"]}>
             <header>Forgot Password</header>
             <form action="#">
-              <div className={styles["field input-field"]}>
+              <div className={styles["input-field"]}>
                 <input
                   type="email"
                   placeholder="Email"
