@@ -52,8 +52,18 @@ text-align: center;
 
 .button-field-login{
     text-align: center;
+    
 }
+.login-btn,.btn-signup,.btn-submit-register{
+    width: 350px;
+}
+
 
 .input-field{
     margin-top: 20px;
+    padding: 0 15px;
+}
+
+.input,.password{
+    width: 350px;
 }

@@ -33,7 +33,7 @@ export default function Register() {
                 />
               </div>
               <div className={styles["button-signup"]}>
-                <button>Signup</button>
+                <button className={styles["btn-signup"]}>Signup</button>
               </div>
             </form>
 

@@ -32,7 +32,7 @@ export default function Login() {
             </div>
 
             <div className={styles["button-field-login"]}>
-              <button>Login</button>
+              <button className={styles["login-btn"]}>Login</button>
             </div>
           </form>
 

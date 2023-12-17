@@ -30,7 +30,7 @@ export const Header = () => {
                     <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <Link to="/about">About us</Link>
+                    <Link to="/about-us">About us</Link>
                   </li>
                   <li>
                     <Link to="/fleet">
@@ -143,7 +143,7 @@ export const Header = () => {
                     <Link to="/rates">Rates</Link>
                   </li>
                   <li>
-                    <Link to="/drivers">Our drivers</Link>
+                    <Link to="/our-drivers">Our drivers</Link>
                   </li>
                   <li>
                     <Link to="/blog">
@@ -165,7 +165,7 @@ export const Header = () => {
                     </ul>
                   </li>
                   <li>
-                    <Link to="/contactus">Contacts</Link>
+                    <Link to="/contact-us">Contacts</Link>
                   </li>
                   <li>
                     <Link to="/login">Login</Link>
@@ -274,7 +274,7 @@ export const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/about" data-hover="About us">
+                    <Link to="/about-us" data-hover="About us">
                       About us
                     </Link>
                   </li>
@@ -391,7 +391,7 @@ export const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/drivers" data-hover="Our drivers">
+                    <Link to="/our-drivers" data-hover="Our drivers">
                       Our drivers
                     </Link>
                   </li>
@@ -415,7 +415,7 @@ export const Header = () => {
                     </ul>
                   </li>
                   <li>
-                    <Link to="/contactus" data-hover="Contacts">
+                    <Link to="/contact-us" data-hover="Contacts">
                       Contacts
                     </Link>
                   </li>

@@ -18,7 +18,9 @@ export const ForgotPassword = () => {
               </div>
 
               <div className={styles["btn-forget"]}>
-                <button>Submit</button>
+                <button className={styles["btn-submit-register"]}>
+                  Submit
+                </button>
               </div>
             </form>
 
