@@ -17,16 +17,15 @@ export const ForgotPassword = () => {
                 />
               </div>
 
-              <div className={styles["field button-field"]}>
+              <div className={styles["btn-forget"]}>
                 <button>Submit</button>
               </div>
             </form>
 
             <div className={styles["form-link"]}>
               <span>
-                Back to Login-{" "}
                 <Link to="/login" className={styles["link login-link"]}>
-                  Login
+                  Back to Login
                 </Link>
               </span>
             </div>

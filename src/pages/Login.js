@@ -32,7 +32,7 @@ export default function Login() {
               </Link>
             </div>
 
-            <div className={styles["field button-field"]}>
+            <div className={styles["button-field-login"]}>
               <button>Login</button>
             </div>
           </form>

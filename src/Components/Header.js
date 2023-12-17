@@ -168,7 +168,7 @@ export const Header = () => {
                     <Link to="/contactus">Contacts</Link>
                   </li>
                   <li>
-                    <Link to="/register">Register/Login</Link>
+                    <Link to="/login">Login</Link>
                   </li>
                 </ul>
               </div>
@@ -420,18 +420,9 @@ export const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/register" data-hover="Register/Login">
-                      Register/Login&nbsp; &nbsp;
-                      <i className="icon-arrow-down-sign-to-navigate"></i>
+                    <Link to="/login" data-hover="Login">
+                      Login
                     </Link>
-                    <ul className="sub-menu dropdown-menu">
-                      <li>
-                        <Link to="/register">Register</Link>
-                      </li>
-                      <li>
-                        <Link to="/login">Login</Link>
-                      </li>
-                    </ul>
                   </li>
                 </ul>
               </div>
