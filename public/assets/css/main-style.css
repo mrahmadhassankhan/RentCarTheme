@@ -10855,3 +10855,10 @@ table.icons tr td:first-child {
 
 
 
+.icon-facebook-logo,.icon-twitter-letter-logo,.icon-google-plus,.icon-linkedin-logo{
+  color :black
+}
+
+.icon-facebook-logo:hover,.icon-twitter-letter-logo:hover,.icon-google-plus:hover,.icon-linkedin-logo:hover{
+  color: #6678ea;
+}
