@@ -13,7 +13,7 @@ Welcome to the Rent Car Theme repository! This project is a React.js-based front
 
 ## Demo
 
-Check out the live demo of the Rent Car Theme at ([https://your-demo-link.com](https://mrahmadhassankhan.github.io/Rent-Car-Theme/)).
+Check out the live demo of the Rent Car Theme at ([Rent-Car-Theme](https://mrahmadhassankhan.github.io/Rent-Car-Theme/)).
 
 ## Features
 
