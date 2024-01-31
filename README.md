@@ -65,5 +65,3 @@ Contributions are welcome! If you have ideas for improvements or find any issues
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as needed.
 
 Thank you for using the Rent Car Theme! If you have any questions or feedback, please don't hesitate to reach out.
-
-Happy coding! 🚗✨
