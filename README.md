@@ -28,29 +28,29 @@ To get started with the Rent Car Theme, follow these steps:
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/mrahmadhassankhan/Rent-Car-Theme.git
-    ```
+   ```bash
+   git clone https://github.com/mrahmadhassankhan/Rent-Car-Theme.git
+   ```
 
 2. Change into the project directory:
 
-    ```bash
-    cd Rent-Car-Theme
-    ```
+   ```bash
+   cd Rent-Car-Theme
+   ```
 
 3. Install dependencies:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 ## Usage
 
 1. Start the development server:
 
-    ```bash
-    npm start
-    ```
+   ```bash
+   npm start
+   ```
 
 2. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the Rent Car Theme.
 
@@ -58,7 +58,7 @@ To get started with the Rent Car Theme, follow these steps:
 
 ## Contributing
 
-Contributions are welcome! If you have ideas for improvements or find any issues, feel free to open an issue or submit a pull request. 
+Contributions are welcome! If you have ideas for improvements or find any issues, feel free to open an issue or submit a pull request.
 
 ## License
 
