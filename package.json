@@ -1,4 +1,5 @@
 {
+  "homepage": "https://mrahmadhassankhan.github.io/RentCarTheme",
   "name": "rentacar",
   "version": "0.1.0",
   "author": "Ahmad Hassan Khan (@mrahmadhassankhan --> Github)",
@@ -18,6 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "predeploy": "npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "react-router-dom": "^6.21.0"
   }
 }
