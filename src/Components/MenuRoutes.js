@@ -22,7 +22,6 @@ export const MenuRoutes = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/RentCarTheme" element={<Home />}></Route>
         <Route path="/about-us" element={<Aboutus />}></Route>
         <Route path="/fleet" element={<Fleet />}></Route>
         <Route path="/services" element={<Services />}></Route>
